@@ -1,12 +1,23 @@
-# React + Vite
+# react-zustand-userlist
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React user management app using React Query, Zustand for state management, and Bootstrap for styling.  
+Allows creating users via a form and displays the user list with the newly added user shown at the top.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Fetch users from an API  
+- Create new users via a form  
+- Show newly added users immediately on top without waiting for server refetch  
+- Form state & UI state managed with Zustand  
+- API requests managed with React Query  
+- Responsive styling with Bootstrap  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React  
+- Zustand (state management)  
+- React Query (@tanstack/react-query)  
+- Bootstrap 5  
+- Reqres.in (fake REST API for testing)  
