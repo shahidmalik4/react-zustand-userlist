@@ -1,4 +1,4 @@
-# react-zustand-userlist
+# React Zustand Userlist
 
 A simple React user management app using React Query, Zustand for state management, and Bootstrap for styling.  
 Allows creating users via a form and displays the user list with the newly added user shown at the top.
